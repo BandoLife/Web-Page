@@ -10,6 +10,7 @@
 
 .header-hero-wrapper{
     background-color: #1f2937;
+    padding: 10px;
 }
 
 .header{
@@ -31,10 +32,10 @@
     list-style-type:none;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    gap: 20px;
 }
 
-.header-paths a {
+.header-paths a{
     color: #E5E7E8;
     text-decoration: none;
 }
@@ -52,13 +53,14 @@
     margin-right: 20px;
 }
 
-.h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
-    padding: 0;
-    margin: 0;
+.hero-intro-image{
+    height: 300px;
 }
+
+.second-half{
+    margin: 100px;
+}
+
 
 .hero-text{
     color: #E5E7EB;
@@ -71,4 +73,94 @@
     padding: 5px 20px;
     border-radius: 5px;
     border: 0;
+}
+.sh-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-top: -60px
+    
+}
+
+.sh-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+}
+
+.box-text{
+    text-align: center;
+    margin: -15px;
+}
+
+.quote-wrapper{
+    background-color: #E5E7EB;
+
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-keanu{
+    font-weight: 900;
+    align-self: flex-end;
+
+}
+
+.footer-wrapper{
+    margin: 100px;
+
+}
+
+.footer{
+    background-color: #3882F6;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.top-text{
+    color: #E5E7E8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-text{
+    color: #E5E7E8;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.sign-up{
+    background-color: #3882F6;
+    border: 2px solid #E5E7E8;
+    color: #E5E7E8;
+
 }
